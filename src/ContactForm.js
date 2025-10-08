@@ -14,7 +14,7 @@ function ContactForm() {
             return;
         }
         setError('');
-        alert(`Thank you, ${name}, your mesage has been sent!`);
+        alert(`Thank you, ${name}, your message has been sent!`);
         setName('');
         setEmail('');
         setMessage('');
@@ -43,7 +43,7 @@ function ContactForm() {
                 <div>
                     <label>Message:</label><br />
                     <input 
-                    type="messaage"
+                    type="message"
                     value={email}
                     onChange={ (e) => setMessage(e.target.value)}required />
                 </div>
